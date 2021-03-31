@@ -7,6 +7,8 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+# For ElasticBeanStalk to know how to expose 
+EXPOSE 80
 # Copy files from our previous stage to this new container
 COPY --from=builder /app/build /usr/share/nginx/html
 
