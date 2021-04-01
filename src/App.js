@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React and Now using docker-compose.yml!
+          I was changed to our feature branch!
         </a>
       </header>
     </div>
